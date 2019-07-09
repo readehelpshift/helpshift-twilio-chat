@@ -1,4 +1,5 @@
 'use strict';
+require('dotenv').config();
 
 import bodyParser from 'body-parser'
 import fetch from 'node-fetch'
@@ -20,6 +21,6 @@ app.get('/', async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 3002, () => {
-  console.log(`Find the server at: http://localhost:${process.env.PORT || 3002}/`); // eslint-disable-line no-console
+app.listen(process.env.PORT || 5000, () => {
+  console.log(`Find the server at: http://localhost:${process.env.PORT || 5000}/`); // eslint-disable-line no-console
 });
