@@ -1,0 +1,24 @@
+{
+  "name": "helpshift-web-demo-server",
+  "main": "server.js",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "form-data": "^2.3.3",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.3.0",
+    "url-search-params-polyfill": "^5.0.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec npm run babel-node -- src",
+    "babel-node": "babel-node --presets es2015",
+    "build": "babel --presets env src -d dist"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "nodemon": "^1.18.10"
+  }
+}
