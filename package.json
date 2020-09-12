@@ -8,7 +8,7 @@
     "express": "^4.16.4",
     "form-data": "^2.3.3",
     "lodash": "^4.17.11",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^2.6.1",
     "twilio": "^3.33.0",
     "url-search-params-polyfill": "^5.0.0"
   },
